@@ -1,0 +1,19 @@
+.ProductList {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .ProductList li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .ProductList-name {
+    font-weight: bold;
+  }
+  
+  .ProductList-price {
+    margin-left: 10px;
+  }
